@@ -58,10 +58,10 @@ This checklist summarizes the status of security controls and compliance best pr
 
 ## Recommendations (Optional)
 
-- Implement **least privilege** and **separation of duties**.  
-- Enforce **strong password policies** with centralized password management.  
-- Encrypt all **sensitive customer data** (credit card info, PII).  
-- Install and monitor an **Intrusion Detection System (IDS)**.  
-- Develop and regularly test a **disaster recovery plan** and **backups**.  
-- Complete a **full asset inventory** and classify assets based on criticality.  
-- Address **PCI DSS, GDPR, and SOC compliance gaps**.
+- Implement least privilege and separation of duties.
+- Enforce strong password policies with centralized password management.  
+- Encrypt all sensitive customer data (credit card info, PII).  
+- Install and monitor an Intrusion Detection System (IDS).  
+- Develop and regularly test a disaster recovery plan and backups.  
+- Complete a full asset inventory and classify assets based on criticality.  
+- Address PCI DSS, GDPR, and SOC compliance gaps.
