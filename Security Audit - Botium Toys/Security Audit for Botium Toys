@@ -26,7 +26,6 @@ The purpose of this audit was to evaluate Botium Toys’ security posture, ident
 ---
 
 4. Key Findings
-
 Access Controls
 - All employees have access to sensitive data including cardholder info and PII/SPII.  
 - Least privilege and separation of duties are not implemented.  
@@ -72,13 +71,13 @@ Overall Risk Score: 8/10
 ---
 
 6. Recommendations
-- Implement **least privilege** and **role-based access control**.  
-- Enforce strong **password policies** with centralized management.  
-- Encrypt all sensitive customer data (cardholder info, PII).  
-- Install an **Intrusion Detection System (IDS)**.  
-- Develop a **disaster recovery plan** and perform regular backups.  
-- Complete a full **asset inventory** and classify assets by criticality.  
-- Address compliance gaps in **GDPR and PCI DSS**.
+- Implement least privilege and separation of duties.
+- Enforce strong password policies with centralized password management.  
+- Encrypt all sensitive customer data (credit card info, PII).  
+- Install and monitor an Intrusion Detection System (IDS).  
+- Develop and regularly test a disaster recovery plan and backups.  
+- Complete a full asset inventory and classify assets based on criticality.  
+- Address PCI DSS, GDPR, and SOC compliance gaps.
 
 ---
 
