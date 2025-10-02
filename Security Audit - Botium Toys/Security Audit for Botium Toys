@@ -1,1 +1,86 @@
-Cybersecurity projects
+Botium Toys - Internal Security Audit Report
+
+1. Overview
+Botium Toys is a small U.S.-based company that develops and sells toys. The company manages IT assets including employee devices, internal networks, software systems, and sensitive customer data. 
+
+The purpose of this audit was to evaluate Botium Toys’ security posture, identify risks, and ensure compliance with relevant regulations including GDPR and PCI DSS.
+
+---
+
+2. Scope of Audit
+- IT-managed assets: employee laptops/desktops, remote devices, headsets, surveillance cameras, and software systems (accounting, inventory, e-commerce, database).  
+- Internal network and internet access.  
+- Data retention, storage, and legacy system management.  
+- Physical security: office, storefront, warehouse.  
+- Compliance with GDPR (E.U.) and PCI DSS (payment card processing).
+
+---
+
+3. Methodology
+1. Reviewed the scope, goals, and risk assessment report provided by the IT department.  
+2. Assessed controls across key categories: Access, Data Protection, Network Security, Backup/Availability, Asset Management, Physical Security.  
+3. Evaluated compliance with PCI DSS, GDPR, and SOC standards.  
+4. Completed a Controls & Compliance Checklist to identify gaps.  
+5. Documented findings and made recommendations for improving security posture.
+
+---
+
+4. Key Findings
+
+Access Controls
+- All employees have access to sensitive data including cardholder info and PII/SPII.  
+- Least privilege and separation of duties are not implemented.  
+- Password policy exists but is weak and not enforced with a centralized system.
+
+Data Protection
+- No encryption for credit card data or personal customer information.  
+- Data retention and classification are incomplete.
+
+Network Security
+- Firewall is configured correctly and antivirus is installed/monitored.  
+- No Intrusion Detection System (IDS) is in place.  
+
+Data Availability / Backup
+- No disaster recovery plan exists.  
+- Critical data is not backed up regularly.
+
+Asset Management
+- Asset inventory is incomplete and legacy systems lack a regular maintenance schedule.
+
+Compliance
+- Partial adherence to GDPR: breach notification plan exists, but asset classification and encryption gaps remain.  
+- PCI DSS compliance gaps include unsecured storage of credit card data and weak access controls.  
+
+Physical Security
+- Locks, CCTV, and fire prevention systems are properly implemented.
+
+---
+
+5. Risk Summary
+| Area | Risk Level | Notes |
+|------|-----------|-------|
+| Access Controls | High | Unauthorized access to sensitive data. |
+| Data Protection | High | Unencrypted customer data at risk. |
+| Network Security | Medium | No IDS; firewall and antivirus help mitigate some risk. |
+| Data Availability / Backup | High | No recovery plan or backups. |
+| Asset Management | Medium | Incomplete inventory and legacy system maintenance. |
+| Compliance | High | Potential GDPR and PCI DSS violations. |
+| Physical Security | Low | Adequate locks, CCTV, fire systems. |
+
+Overall Risk Score: 8/10  
+
+---
+
+6. Recommendations
+- Implement **least privilege** and **role-based access control**.  
+- Enforce strong **password policies** with centralized management.  
+- Encrypt all sensitive customer data (cardholder info, PII).  
+- Install an **Intrusion Detection System (IDS)**.  
+- Develop a **disaster recovery plan** and perform regular backups.  
+- Complete a full **asset inventory** and classify assets by criticality.  
+- Address compliance gaps in **GDPR and PCI DSS**.
+
+---
+
+7. Conclusion
+The internal audit highlights many significant gaps in access controls, data protection, backup strategy, and regulatory compliance. Implementing the recommended actions will significantly improve the security of Botium Toys and help ensure compliance with industry standards and regulations.
