@@ -1,0 +1,67 @@
+# Botium Toys - Controls & Compliance Checklist
+
+This checklist summarizes the status of security controls and compliance best practices for Botium Toys based on the internal audit.
+
+---
+
+## Controls Assessment
+
+| Control | In Place? | Notes |
+|---------|-----------|-------|
+| Least Privilege | No | All employees can access sensitive data; no restrictions in place. |
+| Disaster Recovery Plans | No | No documented disaster recovery plan exists. |
+| Password Policies | No | Weak password policy; not enforced with minimum complexity. |
+| Separation of Duties | No | Not implemented; no role-based access controls. |
+| Firewall | Yes | Firewall configured with appropriate security rules. |
+| Intrusion Detection System (IDS) | No | IDS not installed or monitored. |
+| Backups | No | No backups of critical data exist. |
+| Antivirus Software | Yes | Installed and regularly monitored by IT. |
+| Manual Monitoring/Maintenance for Legacy Systems | No | Legacy systems monitored inconsistently; no scheduled process. |
+| Encryption | No | Customer credit card and PII data not encrypted. |
+| Password Management System | No | No centralized password management system. |
+| Locks (Offices, Storefront, Warehouse) | Yes | Physical locks are in place and functional. |
+| CCTV Surveillance | Yes | CCTV is operational and monitored. |
+| Fire Detection/Prevention | Yes | Fire alarms and sprinkler systems functional. |
+
+---
+
+## Compliance Assessment
+
+### Payment Card Industry Data Security Standard (PCI DSS)
+
+| Best Practice | In Place? | Notes |
+|---------------|-----------|-------|
+| Only authorized users have access to customers’ credit card information | No | All employees have access. |
+| Credit card information stored, accepted, processed, transmitted securely | No | No encryption in storage or transit. |
+| Implement data encryption for credit card data | No | Encryption not implemented. |
+| Adopt secure password management policies | No | Weak passwords, no centralized management. |
+
+### General Data Protection Regulation (GDPR)
+
+| Best Practice | In Place? | Notes |
+|---------------|-----------|-------|
+| E.U. customers’ data is kept private/secured | No | Policies exist, but access control/encryption incomplete. |
+| Breach notification within 72 hours | Yes | IT department has a plan in place. |
+| Ensure data is properly classified and inventoried | No | Asset inventory and classification incomplete. |
+| Enforce privacy policies, procedures, and processes | Yes | Policies and processes enforced internally. |
+
+### System and Organization Controls (SOC Type 1 / SOC Type 2)
+
+| Best Practice | In Place? | Notes |
+|---------------|-----------|-------|
+| User access policies are established | No | Password policy exists but weak; no access restrictions. |
+| Sensitive data (PII/SPII) is confidential/private | No | All employees can access sensitive data; no encryption. |
+| Data integrity ensures data is consistent, complete, accurate, validated | Yes | IT ensures integrated controls to maintain integrity. |
+| Data is available to authorized individuals | Yes | Internal systems provide access as needed. |
+
+---
+
+## Recommendations (Optional)
+
+- Implement **least privilege** and **separation of duties**.  
+- Enforce **strong password policies** with centralized password management.  
+- Encrypt all **sensitive customer data** (credit card info, PII).  
+- Install and monitor an **Intrusion Detection System (IDS)**.  
+- Develop and regularly test a **disaster recovery plan** and **backups**.  
+- Complete a **full asset inventory** and classify assets based on criticality.  
+- Address **PCI DSS, GDPR, and SOC compliance gaps**.
