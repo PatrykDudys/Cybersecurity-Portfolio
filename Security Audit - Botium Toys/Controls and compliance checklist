@@ -1,10 +1,10 @@
-# Botium Toys - Controls & Compliance Checklist
+Botium Toys - Controls & Compliance Checklist
 
 This checklist summarizes the status of security controls and compliance best practices for Botium Toys based on the internal audit.
 
 ---
 
-## Controls Assessment
+Controls Assessment
 
 | Control | In Place? | Notes |
 |---------|-----------|-------|
@@ -25,9 +25,9 @@ This checklist summarizes the status of security controls and compliance best pr
 
 ---
 
-## Compliance Assessment
+Compliance Assessment
 
-### Payment Card Industry Data Security Standard (PCI DSS)
+Payment Card Industry Data Security Standard (PCI DSS)
 
 | Best Practice | In Place? | Notes |
 |---------------|-----------|-------|
@@ -36,7 +36,7 @@ This checklist summarizes the status of security controls and compliance best pr
 | Implement data encryption for credit card data | No | Encryption not implemented. |
 | Adopt secure password management policies | No | Weak passwords, no centralized management. |
 
-### General Data Protection Regulation (GDPR)
+General Data Protection Regulation (GDPR)
 
 | Best Practice | In Place? | Notes |
 |---------------|-----------|-------|
@@ -45,7 +45,7 @@ This checklist summarizes the status of security controls and compliance best pr
 | Ensure data is properly classified and inventoried | No | Asset inventory and classification incomplete. |
 | Enforce privacy policies, procedures, and processes | Yes | Policies and processes enforced internally. |
 
-### System and Organization Controls (SOC Type 1 / SOC Type 2)
+System and Organization Controls (SOC Type 1 / SOC Type 2)
 
 | Best Practice | In Place? | Notes |
 |---------------|-----------|-------|
@@ -54,14 +54,3 @@ This checklist summarizes the status of security controls and compliance best pr
 | Data integrity ensures data is consistent, complete, accurate, validated | Yes | IT ensures integrated controls to maintain integrity. |
 | Data is available to authorized individuals | Yes | Internal systems provide access as needed. |
 
----
-
-## Recommendations (Optional)
-
-- Implement least privilege and separation of duties.
-- Enforce strong password policies with centralized password management.  
-- Encrypt all sensitive customer data (credit card info, PII).  
-- Install and monitor an Intrusion Detection System (IDS).  
-- Develop and regularly test a disaster recovery plan and backups.  
-- Complete a full asset inventory and classify assets based on criticality.  
-- Address PCI DSS, GDPR, and SOC compliance gaps.
