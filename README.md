@@ -4,7 +4,7 @@ This project documents the analysis and response to a simulated Distributed Deni
 
 ---
 
-## 🔍 Project Summary
+## Project Summary
 A flood of **ICMP packets (Ping Flood attack)** caused a two-hour network outage.  
 The cybersecurity team investigated the cause, mitigated the attack, and implemented long-term prevention measures.  
 Using the NIST CSF, I analyzed the incident through the following functions:
@@ -16,7 +16,7 @@ Using the NIST CSF, I analyzed the incident through the following functions:
 
 ---
 
-## ⚙️ Tools & Techniques Used
+## Tools & Techniques Used
 - Firewall Configuration and Hardening  
 - Network Monitoring and IDS/IPS Integration  
 - Log Analysis and Source IP Verification  
@@ -25,7 +25,7 @@ Using the NIST CSF, I analyzed the incident through the following functions:
 
 ---
 
-## 📊 Key Outcomes
+## Key Outcomes
 - Implemented new firewall rules to limit ICMP traffic  
 - Deployed network monitoring for traffic anomalies  
 - Established incident response playbooks for future DDoS events  
